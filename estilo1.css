@@ -1,0 +1,34 @@
+body {
+    background-image: url(cachorrinhoafollowme.jpg);
+}
+
+h1 {
+    font-family: arial,verdana;
+    text-align: left;
+    color: blue;
+}
+
+h2 {
+    font-family: arial,verdana;
+    text-align: right;
+    color: yellow;
+}
+
+h3 {
+    font-family: arial,verdana;
+    text-align: center;
+    color: white;
+}
+
+h4 {
+    font-size: 12px;  
+    text-align: justify;
+    color: black;
+    background-color: yellow;
+}
+
+h5 {
+    font-style: italic; 
+    text-align: center;
+    color: white;
+}
