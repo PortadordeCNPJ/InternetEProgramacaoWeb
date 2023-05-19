@@ -1,0 +1,24 @@
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    padding: 10px;
+    background-color: gray;
+    margin: 2px;
+}
+
+.corpo {
+    width: 600px;
+    padding: 10px;
+    background-color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+.rodape {
+    width: 600px;
+    padding: 10px;
+    background-color: blue;
+    font-size: 10px;
+    text-align: center;
+}
