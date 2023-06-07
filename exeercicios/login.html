@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Galada&family=Open+Sans&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -20,7 +21,7 @@
         <div class="logo-wrapper"><img class="logo" href="index.html" src="./img/tinta.png">
             <h1> Bakery Dreans </h1>
         </div>
-        
+
         <div class="menus">
             <nav>
                 <ul>
@@ -36,16 +37,24 @@
             </nav>
         </div>
     </div>
-    
-    <div class="texto">
-        <span> Dreans: O doce mundo da confeitaria ao seu alcance! </span>
-    </div>
 
+    <form id="form" class="colorful-form" method="post" action="">
 
-    <div class="img-wrapper">  <img class="img-princ" src="./img/doces.jpg">
+        <div class="form-group">
+            <label class="form-label" for="email">Email:</label>
+            <input required="" placeholder="Insira seu email" class="form-input" name="email" id="email" type="email">
+        </div>
 
-    </div>
+        <div class="form-group">
+            <label class="form-label" for="name">Senha:</label>
+            <input min="5" required="" placeholder="Insira sua senha" class="form-input" id="senha" type="password">
+        </div>
+        <button onclick="logar()" class="form-button" type="submit">Login </button>
 
+    </form>
+
+    <script src="scriptlog.js"></script>
 </body>
+
 
 </html>
