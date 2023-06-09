@@ -5,8 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>LOJINHA</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="estilo1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,37 +23,135 @@
 
     <div class="cabecalho">
 
-        <div class="logo-wrapper"><img class="logo" href="index.html" src="./img/tinta.png">
-            <h1> Bakery Dreans </h1>
+        <div class="logo-wrapper"> <a href="index.html"> <img class="logo" src="./img/logo.png"> </a>
+
         </div>
-        
-        <div class="menus">
-            <nav>
-                <ul>
-                    <li>
-                        <h2><a href="index.html">Inicio </a></h2>
-                    <li>
-                        <h2><a href="cadastro.html">Cadastro </a> </h2>
-                    <li>
-                        <h2><a href="login.html">Login </a></h2>
-                    <li>
-                        <h2><a href="produto.html">Produtos </a> </h2>
-                </ul>
-            </nav>
-        </div>
+
+
+        <nav>
+            <ul>
+                <li class=" comic-button">
+                    <h2><a href="index.html">Inicio </a></h2>
+                </li>
+                <li class=" comic-button">
+                    <h2><a href="cadastro.html">Cadastro </a> </h2>
+                </li>
+                <li class=" comic-button">
+                    <h2><a href="login.html">Login </a></h2>
+                </li>
+                <li class=" comic-button">
+                    <h2><a href="produto.html">Produtos </a> </h2>
+                </li>
+            </ul>
+        </nav>
     </div>
+
+
 
     <pre>
-    <div class="texto">
-        <span> Bakery Dreans: O doce mundo da confeitaria ao seu alcance! </span>
-    </div>
+
+
+        <span> Bakery Dreans: Seus sonhos doces ao seu alcance! </span>
     </pre>
 
-    <div class="img-wrapper">  <img class="img-princ" src="./img/doces.jpg"> 
-        <img class="img-princ" src="./img/doce2.webp">
+    <pre class="texto">
+        Bem-vindos à Bakery Dreams, a confeitaria dos seus sonhos!
+            Nós nos dedicamos a criar e oferecer uma ampla variedade de doces e bolos deliciosos
+            que vão conquistar o seu paladar e tornar qualquer ocasião especial ainda mais memorável.
 
+        Localizada no coração da cidade, a Bakery Dreams é um verdadeiro paraíso para os amantes da confeitaria. Ao
+            entrar em nossa loja, você será envolvido por um aroma irresistível de doces recém-saídos do forno, que
+            despertará todos os seus sentidos e aguçará o seu apetite.
+
+        Nossa vitrine é um verdadeiro espetáculo para os olhos. Imagine encontrar uma infinidade de cupcakes,
+            macarons coloridos, tortas tentadoras, cheesecakes cremosos, brownies decadentes e uma variedade de bolos
+            irresistíveis, todos feitos com ingredientes frescos e de alta qualidade. Na Bakery Dreams, acreditamos que
+            cada doce deve ser uma obra-prima, tanto no sabor quanto na aparência.
+ 
+        Nossos talentosos confeiteiros são apaixonados por seu ofício e dedicam-se a criar verdadeiras obras de arte
+            açucaradas. Cada doce é cuidadosamente preparado com amor e atenção aos detalhes, resultando em sabores
+            autênticos e combinações únicas. Seja você um fã de sabores clássicos ou está em busca de algo mais ousado e
+            inovador, temos opções para todos os gostos e preferências.
+        </pre>
+
+    <div class="body">
+        <section class="carousel" aria-label="Gallery">
+            <ol class="carousel__viewport">
+                <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                    <div class="carousel__snapper">
+                        <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+                        <img class="img-princ" src="./img/doces1.jpeg">
+                        <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+                        <img class="img-princ" src="./img/doces.jpg">
+                    </div>
+                </li>
+
+                <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                    <div class="carousel__snapper"></div>
+                    <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+                    <img class="img-princ" src="./img/doces.jpg">
+                    <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+                    <img class="img-princ" src="./img/doce2.webp">
+                </li>
+
+                <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                    <div class="carousel__snapper"></div>
+                    <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+                    <img class="img-princ" src="./img/doce2.webp">
+                    <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+                    <img class="img-princ" src="./img/bolo.webp">
+                </li>
+
+                <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+                    <div class="carousel__snapper"></div>
+                    <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+                    <img class="img-princ" src="./img/bolo.webp">
+                    <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+                    <img class="img-princ" src="./img/doces1.jpeg">
+                </li>
+                
+            </ol>
+            <aside class="carousel__navigation">
+                <ol class="carousel__navigation-list">
+                    <li class="carousel__navigation-item">
+                        <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                        <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                        <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                        <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+                    </li>
+                </ol>
+            </aside>
+        </section>
     </div>
 
+    <pre class="texto">
+
+        Além dos doces individuais, também oferecemos bolos personalizados para tornar qualquer celebração ainda mais
+            especial. Seja para um aniversário, casamento, chá de bebê ou qualquer outra ocasião, nossos confeiteiros
+            podem criar um bolo exclusivo que atenda aos seus desejos e surpreenda seus convidados. Desde decorações
+            elegantes e minimalistas até criações temáticas elaboradas, nosso objetivo é transformar suas ideias em
+            realidade doce.
+
+        Na Bakery Dreams, também valorizamos a qualidade do atendimento ao cliente. Nossa equipe está sempre pronta
+            para recebê-lo com um sorriso caloroso e ajudá-lo a escolher o doce perfeito para satisfazer seus desejos.
+            Se você tiver alguma restrição alimentar ou preferência específica, ficaremos felizes em oferecer opções sem
+            glúten, sem lactose ou veganas, garantindo que todos possam desfrutar das delícias da nossa confeitaria.
+
+        Além disso, se você quiser levar um pouco do sabor da Bakery Dreams para casa, oferecemos serviços de
+            encomendas e delivery. Assim, você pode desfrutar dos nossos doces e bolos no conforto do seu lar ou
+            surpreender.
+        </pre>
+
+    <div class="rodape">
+
+
+    </div>
 </body>
 
 </html>

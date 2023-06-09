@@ -1,13 +1,13 @@
 //Script para mostrar senha caso o usuario queira ve-lá
 
 function show() {
-    var p = document.getElementById('pwd');
-    p.setAttribute('type', 'text');
+    var b = document.getElementById('senha');
+    b.setAttribute('type', 'text');
 }
 
 function hide() {
-    var p = document.getElementById('pwd');
-    p.setAttribute('type', 'password');
+    var b = document.getElementById('senha');
+    b.setAttribute('type', 'password');
 }
 
 var pwShown = 0;
@@ -21,6 +21,8 @@ document.getElementById("eye").addEventListener("click", function () {
         hide();
     }
 }, false);
+
+
 
 //FUNÇÃO PARA NÃO DEIXAR O USUARIO PASSAR O LOGIN COM OS CAMPOS EM BRANCO
 
