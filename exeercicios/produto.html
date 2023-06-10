@@ -15,6 +15,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Galada&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,900" rel="stylesheet">
+
 </head>
 
 <body>
@@ -55,20 +57,76 @@
 
     </pre>
 
-    <div class="img-wrapper"> <img class="img-princ" src="./img/doces.jpg">
-        <img class="img-princ" src="./img/doce2.webp">
-    </div>
+       <div class="CartContainer">
+              <div class="Header">
+                  <h3 class="Heading">Shopping Cart</h3>
+                  <h5 class="Action">Remove all</h5>
+              </div>
+    
+              <div class="Cart-Items">
+                    <div class="image-box">
+                        <img src="images/apple.png" style={{ height="120px" }} />
+                    </div>
+                    <div class="about">
+                        <h1 class="title">Apple Juice</h1>
+                        <h3 class="subtitle">250ml</h3>
+                        <img src="images/veg.png" style={{ height="30px" }}/>
+                    </div>
+                    <div class="counter">
+                        <div class="btn">+</div>
+                        <div class="count">2</div>
+                        <div class="btn">-</div>
+                    </div>
+                    <div class="prices">
+                        <div class="amount">$2.99</div>
+                        <div class="save"><u>Save for later</u></div>
+                        <div class="remove"><u>Remove</u></div>
+                    </div>
+              </div>
+    
+              <div class="Cart-Items pad">
+                    <div class="image-box">
+                        <img src="images/grapes.png" style={{ height="120px" }} />
+                    </div>
+                    <div class="about">
+                        <h1 class="title">Grapes Juice</h1>
+                        <h3 class="subtitle">250ml</h3>
+                        <img src="images/veg.png" style={{ height="30px" }}/>
+                    </div>
+                    <div class="counter">
+                        <div class="btn">+</div>
+                        <div class="count">1</div>
+                        <div class="btn">-</div>
+                    </div>
+                    <div class="prices">
+                        <div class="amount">$3.19</div>
+                        <div class="save"><u>Save for later</u></div>
+                        <div class="remove"><u>Remove</u></div>
+                    </div>
+              </div>
+            <hr> 
+            <div class="checkout">
+            <div class="total">
+                <div>
+                    <div class="Subtotal">Sub-Total</div>
+                    <div class="items">2 items</div>
+                </div>
+                <div class="total-amount">$6.18</div>
+            </div>
+            <button class="button">Checkout</button></div>
+       </div>
+    <div class="content"></div>
 
-    <div>
-        <div>
-            <a href="carrinho.html">
-                <img src="images/carrinho.png" alt="Carrinho de compras">
-            </a>
-            <img src="images/add.png" alt="Adicionar item" onclick="adicionarItem()">
-            <img src="images/subtract.png" alt="Remover item" onclick="removerItem()">
-        </div>
-    </div>
+    <div class="rodape texto">
 
+        <div class="logo-wrapper"> <a href="index.html"> <img class="logo" src="./img/logo.png"> </a> </div>
+
+        <a href="https://web.whatsapp.com">
+            <div class="contact comic-button">
+                Telefone para contato: (45)99199-1991
+            </div>
+        </a>
+    </div>
 
 </body>
 
