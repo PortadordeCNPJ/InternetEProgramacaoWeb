@@ -30,6 +30,11 @@ span{
     font-family: 'Galada', cursive;
 }
 
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
 
 /* ------------------- CSS DO CABEÇALHO -------------------- */
 
@@ -279,6 +284,7 @@ ol, li {
   counter-reset: item;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
+  overflow-y: hidden;
 }
 
 .carousel__slide {
@@ -297,16 +303,6 @@ ol, li {
 .img-princ {
   width: 560px;
   height: 405px;
-}
-
-.carousel__slide:before {
-  content: counter(item);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate3d(-50%,-40%,70px);
-  color: #fff;
-  font-size: 2em;
 }
 
 .carousel__snapper {
@@ -393,29 +389,33 @@ ol, li {
 }
 
 
-/* _____________________________________________________________ */
+/* ----------------------------------CSS DO RODAPÉ---------------------------------- */
+
+#rodape {
+  align-items: center;
+}
 
   #wrapper {
   min-height: 100%;
   position: relative;
 }
 
-div .body-content{
+.body-content{
   /** Altura do rodapé tem que ser igual a isso aqui e vice-versa **/
-  padding-bottom: 100px;
+  flex-grow: 10;
+  flex-shrink: 10;
+
 }
+
 footer {
   display: flex;
   justify-content: space-around;
   background: #FFB6C1;
   width: 100%;
   height: 100px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
-/* ------------------------------------------------------------------------------- */
+/* ---------------------------------- CSS DA PAGINA DE PRODUTOS --------------------------------------------- */
 
 .CartContainer{
 	width: 70%;
