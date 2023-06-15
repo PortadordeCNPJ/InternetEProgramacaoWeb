@@ -472,15 +472,6 @@ footer {
   color: #2F3841;
 }
 
-.Action {
-  font-size: 14px;
-  font-family: 'Open Sans';
-  font-weight: 600;
-  color: #E44C4C;
-  cursor: pointer;
-  border-bottom: 1px solid #E44C4C;
-}
-
 .Cart-Items {
   margin: auto;
   width: 90%;
@@ -566,24 +557,6 @@ footer {
   font-family: 'Open Sans';
   font-weight: 800;
   color: #202020;
-}
-
-.save {
-  padding-top: 5px;
-  font-size: 14px;
-  font-family: 'Open Sans';
-  font-weight: 600;
-  color: #1687d9;
-  cursor: pointer;
-}
-
-.remove {
-  padding-top: 5px;
-  font-size: 14px;
-  font-family: 'Open Sans';
-  font-weight: 600;
-  color: #E44C4C;
-  cursor: pointer;
 }
 
 .pad {
