@@ -546,6 +546,8 @@ footer {
 }
 
 .count {
+  all: unset;
+  width: 25px;
   font-size: 20px;
   font-family: 'Open Sans';
   font-weight: 600;
@@ -558,6 +560,7 @@ footer {
 }
 
 .amount {
+  all: unset;
   padding-top: 20px;
   font-size: 26px;
   font-family: 'Open Sans';
@@ -594,9 +597,12 @@ footer {
 }
 
 .total {
-  width: 100%;
+  all: unset;
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  display: flex;
+  
 }
 
 .Subtotal {
@@ -615,6 +621,7 @@ footer {
 }
 
 .total-amount {
+  all: unset;
   font-size: 36px;
   font-family: 'Open Sans';
   font-weight: 900;

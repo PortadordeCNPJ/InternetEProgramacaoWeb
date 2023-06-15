@@ -54,7 +54,7 @@
     </pre>
 
     <div class="para-la">
-        <div id="prod" class="CartContainer">
+        <form id="prod" class="CartContainer">
             <div class="Header">
                 <h3 class="Heading">Carrinho de compras</h3>
                 <h5 class="Action">Remover tudo</h5>
@@ -71,13 +71,13 @@
                 </div>
 
                 <div class="counter">
-                    <div class="btn">+</div>
-                    <div class="count">2</div>
-                    <div class="btn">-</div>
+                    <div class="btn" onclick="almentarKg('chocolate')">+</div>
+                    <input class="count" id="ContChoco" value="0"/>
+                    <div class="btn"  onclick="abaixarKg('chocolate')">-</div>
                 </div>
 
                 <div class="prices">
-                    <div class="amount">R$45,00</div>
+                    <input class="amount"  id="precoChoc" value="R$0,00"/>
                     <div class="save"><u>Salvar no carrinho</u></div>
                     <div class="remove"><u>Remover</u></div>
                 </div>
@@ -94,15 +94,13 @@
                 </div>
 
                 <div class="counter">
-                    <div class="btn">+</div>
-                    <div class="count">1</div>
-                    <div class="btn">-</div>
+                    <div class="btn" onclick="almentarKg('morango')">+</div>
+                    <input class="count"  id="Contmorang" value="0"/>
+                    <div class="btn" onclick="abaixarKg('morango')">-</div>
                 </div>
 
                 <div class="prices">
-                    <div class="amount">R$40,00</div>
-                    <div class="save"><u>Salvar no carrinho</u></div>
-                    <div class="remove"><u>Remover</u></div>
+                    <input class="amount"  id="precoMoran" value="R$0,00"/>
                 </div>
             </div>
 
@@ -112,13 +110,13 @@
                         <div class="Subtotal">Total</div>
                         <div class="items">2 itens</div>
                     </div>
-                    <div class="total-amount">R$85,00</div>
+                    <input class="total-amount" id="precototal" value="R$ 0,00"/>
                 </div>
-                <button onclick="logar()" class="form-button" id="submit" type="submit">Concluir compra</button>
+                <button class="form-button" id="submit" type="submit">Concluir compra</button>
             </div>
-        </div>
+        </form>
     </div>
-    <script src="scriptlog.js"></script>
+    <script src="scriptpro.js"></script>
 
     <div class="content"></div>
 
