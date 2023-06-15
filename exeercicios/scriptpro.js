@@ -12,7 +12,7 @@ function calcValor(tipoBolo) {
     if (tipoBolo == 'chocolate') {
         var inputcontagem = document.querySelector("#ContChoco");
         var preco = parseInt(inputcontagem.value) * valorKgBoloChoc;
-        precoChoc.value = ("R$ " + preco.toFixed(2)).replace(".", ",");
+        precoChoc.value = ("R$ " + preco.toFixed(2)).replace(".", ".");
     }
 
     else
