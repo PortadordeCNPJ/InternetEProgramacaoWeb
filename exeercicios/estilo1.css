@@ -155,10 +155,6 @@ nav a:hover {
   border-radius: 5px;
 }
 
-textarea.form-input {
-  height: 100px;
-}
-
 .form-button {
   display: block;
   width: 100%;
