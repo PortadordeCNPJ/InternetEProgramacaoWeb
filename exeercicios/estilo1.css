@@ -124,7 +124,7 @@ nav a:hover {
   max-width: 400px;
   margin: 100px auto 0;
   padding: 35px;
-  background-color: #f5f5f5;
+  background-color: #d3d3d3;
   border-radius: 10px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -475,7 +475,6 @@ footer {
 .Cart-Items {
   margin: auto;
   width: 90%;
-  height: 30%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -571,11 +570,7 @@ footer {
 
 .total {
   all: unset;
-  display: flex;
-  justify-content: space-between;
   width: 100%;
-  display: flex;
-  
 }
 
 .Subtotal {
@@ -583,6 +578,7 @@ footer {
   font-family: 'Open Sans';
   font-weight: 700;
   color: #202020;
+  position: relative;
 }
 
 .items {
@@ -595,6 +591,9 @@ footer {
 
 .total-amount {
   all: unset;
+  position: absolute;
+  top: 53%;
+  left: 70%;
   font-size: 36px;
   font-family: 'Open Sans';
   font-weight: 900;
