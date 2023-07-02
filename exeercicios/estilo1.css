@@ -59,6 +59,12 @@ span {
   float: left;
 }
 
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+
+
 
 /*Nav para deixar o menu na horizontal*/
 
@@ -149,10 +155,6 @@ nav a:hover {
   border-radius: 5px;
 }
 
-textarea.form-input {
-  height: 100px;
-}
-
 .form-button {
   display: block;
   width: 100%;
@@ -168,6 +170,19 @@ textarea.form-input {
 
 .form-button:hover {
   background-color: #ff5f59;
+}
+
+.button-dois {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6f69;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none;
 }
 
 .img-forms {
@@ -441,6 +456,7 @@ footer {
   background: #FFB6C1;
   width: 100%;
   height: 100px;
+  margin-top: 20px;
 }
 
 /* ---------------------------------- CSS DA PAGINA DE PRODUTOS --------------------------------------------- */
@@ -563,6 +579,8 @@ footer {
 }
 
 .checkout {
+  display: flex;
+  flex-direction: column;
   float: right;
   margin-right: 5%;
   width: 28%;
@@ -578,7 +596,6 @@ footer {
   font-family: 'Open Sans';
   font-weight: 700;
   color: #202020;
-  position: relative;
 }
 
 .items {
@@ -591,25 +608,9 @@ footer {
 
 .total-amount {
   all: unset;
-  position: absolute;
-  top: 53%;
-  left: 70%;
   font-size: 36px;
   font-family: 'Open Sans';
   font-weight: 900;
   color: #202020;
 }
 
-.button {
-  margin-top: 10px;
-  width: 100%;
-  height: 40px;
-  border: none;
-  background: linear-gradient(to bottom right, #B8D7FF, #8EB7EB);
-  border-radius: 20px;
-  cursor: pointer;
-  font-size: 16px;
-  font-family: 'Open Sans';
-  font-weight: 600;
-  color: #202020;
-}

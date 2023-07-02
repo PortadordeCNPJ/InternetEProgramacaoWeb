@@ -50,7 +50,7 @@
     </div>
 
     <pre>
-        <span> Bakery Dreans: Seus sonhos doces ao seu alcance! </span>
+        <span class="titulo"> Bakery Dreans: Seus sonhos doces ao seu alcance! </span>
     </pre>
 
     <div class="para-la">
@@ -71,13 +71,14 @@
 
                 <div class="counter">
                     <div class="btn" onclick="almentarKg('chocolate')">+</div>
-                    <input class="count" id="ContChoco" value="0"/>
-                    <div class="btn"  onclick="abaixarKg('chocolate')">-</div>
+                    <input class="count" id="ContChoco" value="0" />
+                    <div class="btn" onclick="abaixarKg('chocolate')">-</div>
                 </div>
 
                 <div class="prices">
-                    <input class="amount"  id="precoChoc" value="R$0,00"/>
+                    <input class="amount" id="precoChoc" value="R$0,00" />
                 </div>
+
             </div>
 
             <div class="Cart-Items pad">
@@ -92,26 +93,28 @@
 
                 <div class="counter">
                     <div class="btn" onclick="almentarKg('morango')">+</div>
-                    <input class="count"  id="Contmorang" value="0"/>
+                    <input class="count" id="Contmorang" value="0" />
                     <div class="btn" onclick="abaixarKg('morango')">-</div>
                 </div>
 
                 <div class="prices">
-                    <input class="amount"  id="precoMoran" value="R$0,00"/>
+                    <input class="amount" id="precoMoran" value="R$0,00" />
                 </div>
-            </div>
 
-            <div class="checkout">
-                <div class="total">
-                    <div>
-                        <div class="Subtotal">Total</div>
-                        <div class="items">2 itens</div>
+            </div>
+                <div class="checkout">
+                    <div class="total">
+                        <div>
+                            <div class="Subtotal">Total</div>
+                            <div class="items">2 itens</div>
+                        </div>
+                        <input class="total-amount" id="precototal" value="R$ 0,00" />
                     </div>
-                    <input class="total-amount" id="precototal" value="R$ 0,00"/>
-                </div>
-                <button class="form-button" id="submit" type="submit">Concluir compra</button>
+               
+                <button class="button-dois" id="submit" type="submit">Concluir compra</button>
             </div>
         </form>
+
     </div>
     <script src="scriptpro.js"></script>
 
