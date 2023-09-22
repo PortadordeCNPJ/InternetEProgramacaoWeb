@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="prod" class="CartContainer">
+        <div class="Header">
+            <h3 class="Heading">Carrinho de compras</h3>
+        </div>
+    
+        <div class="Cart-Items">
+            <div class="image-box">
+                <img src="./img/cake-cho.jfif" style="height:120px" />
+            </div>
+    
+            <div class="about">
+                <h1 class="title">Bolo de chocolate</h1>
+                <h3 class="subtitle">KG</h3>
+            </div>
+    
+            <div class="counter">
+                <div class="btn" onclick="almentarKg('chocolate')">+</div>
+                <input class="count" id="ContChoco" value="0" />
+                <div class="btn" onclick="abaixarKg('chocolate')">-</div>
+            </div>
+    
+            <div class="prices">
+                <input class="amount" id="precoChoc" value="R$0,00" />
+            </div>
+    
+        </div>
+    
+        <div class="Cart-Items pad">
+            <div class="image-box">
+                <img src="./img/cake-mor.jfif" style="height:120px" />
+            </div>
+    
+            <div class="about">
+                <h1 class="title">Bolo de morango</h1>
+                <h3 class="subtitle">KG</h3>
+            </div>
+    
+            <div class="counter">
+                <div class="btn" onclick="almentarKg('morango')">+</div>
+                <input class="count" id="Contmorang" value="0" />
+                <div class="btn" onclick="abaixarKg('morango')">-</div>
+            </div>
+    
+            <div class="prices">
+                <input class="amount" id="precoMoran" value="R$0,00" />
+            </div>
+    
+        </div>
+            <div class="checkout">
+                <div class="total">
+                    <div>
+                        <div class="Subtotal">Total</div>
+                        <div class="items">2 itens</div>
+                    </div>
+                    <input class="total-amount" id="precototal" value="R$ 0,00" />
+                </div>
+           
+            <button class="button-dois" id="submit" type="submit">Concluir compra</button>
+        </div>
+    </form>
+</body>
+</html>
+
